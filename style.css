@@ -17,10 +17,6 @@ body {
     background-color: var(--primary-color);
 }
 
-.link-active {
-    font-weight: bold;
-}
-
 /* navbar section */
 
 #navigation {
@@ -33,15 +29,18 @@ body {
     padding: 0.5rem;
 }
 
-#navbar-links {
+#navbar-links  {
     padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 #navbar-links a {
     text-decoration: none;
     padding: 0rem 1rem;
-    font-weight: 500;
     color: var(--secondary-color);
+}
+
+#navbar-links #link-active {
+    font-weight: bold;
 }
 
 /* main section  */
