@@ -7,7 +7,7 @@ input {
     color: var(--secondary-font-color);
 }
 
-@media screen and (min-height: 500px) {
+@media screen and (min-height: 650px) {
     .footer {
         width: 100%;
         position: fixed;
