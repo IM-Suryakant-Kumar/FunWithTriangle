@@ -1,0 +1,19 @@
+:root {
+    --secondary-font-color: #182C61;
+}
+
+.quest-container {
+    width: 80%;
+    margin: 3rem  auto 0rem auto;
+    color: var(--secondary-font-color);
+}
+
+.quest-container p {
+    font-size: 1.2rem;
+}
+
+.quest-container label {
+    display: inline-block;
+    color: var(--secondary-font-color);
+    font-size: 1.2rem;
+}

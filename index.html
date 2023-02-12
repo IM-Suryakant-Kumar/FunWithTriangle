@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun With Triangles</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Fun With Triangle</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #start {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.9rem;
+            display: inline-block;
+            margin: auto;
+            padding: 0.9rem 2rem;
+            background-color: #182C61;
+            color: #4bcffa;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            box-shadow: -2px 2px 0.5rem 1px grey;
+            margin-top: 40vh;
+        }
+        
+        #start:hover {
+            background-color: #4bcffa;
+            color: #182C61;
+        }
+    </style>
 </head>
 
 <body>
-    <nav>
-        <a href="./">IsTriangle Quiz</a>
-        <a href="./triangleQuiz.html">Triangle Quiz</a>
-        <a href="./hypotenuse.html">Calculate Hypotenus</a>
-        <a href="./areaOfTriangle.html">Area</a>
-    </nav>
-    <h1>Is Triangle?</h1>
-    <form action="">
-        <label>First Angle<input class="angle" type="number"></label>
-        <label>Second Angle<input class="angle" type="number"></label>
-        <label>Third Angle<input class="angle" type="number"></label>
-    </form>
-    <button type="button" id="isTriangle">Is Triangle?</button>
-    <h2 id="output"></h2>
 
-    <!-- script section -->
-    <script src="./app.js"></script>
+    <a id="start" href="./pages/isTriangle.html">GET START</a>
+
 </body>
 
 </html>
