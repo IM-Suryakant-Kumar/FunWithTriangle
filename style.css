@@ -80,7 +80,7 @@ button {
 /* Footer Section */
 
 .footer {
-    margin-top: 1rem;
+    /* margin-top: 6rem; */
     background-color: var(--nav-foot-color);
     border-top-right-radius: 1rem;
 }
